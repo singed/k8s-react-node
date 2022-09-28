@@ -10,7 +10,7 @@
 
 `kubectl create secret generic pgpassword --from-literal PGPASSWORD=password123` - create secret with password for Postgres
 
-`kubectl apply -f k8s` - deploy application
+`kubectl apply -f k8s` - deploy application (http://localhost to access)
 
 `kubectl delete namespace fibonaci` - to clean up
 
